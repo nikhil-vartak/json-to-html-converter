@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JSON to HTML Converter</title>
+        <link rel="stylesheet" href="demo.css"/>
+        <link rel="stylesheet" href="table.css"/>
+        <script src="../source/j2h-converter.js"></script>
+        <script type="text/javascript">
+            function jsonToHtmlTable() {
+                var txtJson = document.querySelector('#txtJson');
+                if(txtJson.value && txtJson.value.trim() != '') {
+                    var j2ht = new J2HConverter(txtJson.value, 'divMain');
+                    j2ht.attributes = { class: 'j2ht_table', cellspacing: '0', cellpadding: '0' };
+                    j2ht.convert();
+                }
+                else {
+                    txtJson.focus();
+                }
+            }
+
+            window.addEventListener('load', function() {
+                var btnConvert = document.querySelector('#btnConvert');
+                btnConvert.addEventListener('click', jsonToHtmlTable);
+            });
+        </script>
+    </head>
+    <body>
+        <textarea id="txtJson" placeholder="enter json here..." class="json_input" rows="10"></textarea><br/><br/>
+        <input id="btnConvert" type="button" value="convert" class="convert_btn" /><br/><br/>
+        <div id="divMain"></div>
+    </body>
+</html>

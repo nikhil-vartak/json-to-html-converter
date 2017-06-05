@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    padding: 1%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+code {
+    background-color: #f7f7f7;
+}
+
+.page_header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.page_header a {
+    color: #278efc;
+    text-decoration: none;
+    margin-left: 1%;
+}
+
+.page_header a:hover { color: #0368d4; }
+
+.page_content { margin-top: 1%; }
+
+.features, .samples { line-height: 25px; }
+
+.samples { 
+    list-style: none;
+    padding: 0; 
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: bold;
+}

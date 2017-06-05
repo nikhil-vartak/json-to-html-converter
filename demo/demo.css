@@ -1,0 +1,47 @@
+:root {
+    --font-size: 14px;
+}
+
+body {
+    font-family: 'Segoe UI';
+    font-size: var(--font-size);
+    padding: 1%;
+    margin: 0;
+}
+
+.github {
+    color: #278efc;
+    text-decoration: none;
+}
+
+.github:hover {
+    color: #0368d4;
+}
+
+.json_input {
+    width: 99%;
+    margin: 0;
+    border: 1px solid #0368d4;
+    border-radius: 5px;
+    font-family: 'Segoe UI';
+    font-size: var(--font-size);
+}
+
+.convert_btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #0368d4;
+    padding: 9px 12px;
+    font-size: var(--font-size);
+    border-radius: 5px;
+    color: #fff;
+    background-color: #278efc;
+}
+
+.json_input:focus,
+.convert_btn:hover {
+    box-shadow: 0 6px 18px -9px #0368d4;
+    transition: box-shadow 0.1s;
+}

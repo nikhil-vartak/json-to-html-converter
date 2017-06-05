@@ -1,0 +1,52 @@
+/*
+    Example styles for demo
+*/
+
+.j2ht_table,
+.j2ht_table table {
+    width: 100%;
+    border-collapse: collapse;
+    --cellpadding: 4px;
+}
+
+.j2ht_table {
+    border: 1px black solid;
+}
+
+.j2ht_table table {
+    border: 1px #e6e6e6 solid;
+    font-size: 12px;
+}
+
+.j2ht_table table {
+    width: -webkit-calc(100% - 8px);
+    width: -moz-calc(100% - 8px);
+    width: calc(100% - 8px);
+    margin-left: 8px;
+}
+
+.j2ht_table table > tbody > tr:nth-child(0) {
+    background-color: #f7f7f7;
+}
+
+.j2ht_table > thead > tr > td,
+.j2ht_table table > thead > tr > td {
+    font-weight: normal;
+    padding: var(--cellpadding);
+}
+
+.j2ht_table > thead > tr > td {
+    color: #FFFFFF;
+    background: #1b1e24;
+}
+
+.j2ht_table table > thead > tr > td {
+    color: #000000;
+    background: #e6e6e6;
+}
+
+.j2ht_table > tbody > tr > td,
+.j2ht_table table > tbody > tr > td {
+    padding: var(--cellpadding);
+}
+
