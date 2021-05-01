@@ -2,7 +2,7 @@
 
 Converts JSON data to HTML table with collapsible details view for nested objects. Check site for sample outputs.
 
-<a href="https://niksofteng.github.io/json-to-html-converter">https://niksofteng.github.io/json-to-html-converter</a>
+<a href="https://nikhil-vartak.github.io/json-to-html-converter">https://nikhil-vartak.github.io/json-to-html-converter</a>
 
 <h2>Usage</h2>
 
